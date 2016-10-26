@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ProjectSettings targetNamespace="www.synechron.com\AutomationCOE" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<Environment>
+<Name>QA</Name>
+<Project_Name>Create</Project_Name>
+<Project_Version>Create - 14.3</Project_Version>
+<Application_Type>Web</Application_Type>
+<Application_URL>http://e7qaimpactui1.realads.com</Application_URL>
+<Controller_FileName>Controller_FunctionalTestCases</Controller_FileName>
+<Application_Database>MySQL</Application_Database>
+<Userid>Test</Userid>
+<Password>Test</Password>
+<Execution>true</Execution>
+</Environment>
+<SendEmail>No</SendEmail>
+<Subject>Data Solutions - TestExecutionReport</Subject>
+<Body>Please find the attached report.</Body>
+<ToList>srikanth.korada@synechron.com</ToList>
+<Api_Url>http://10.80.70.41:8080/registry/account_manager/1.0</Api_Url>
+<Api_username>superuser</Api_username>
+<Api_password>CHANGEME</Api_password>
+<ORACLE_HOST>10.80.70.42:1521</ORACLE_HOST>
+<ORACLE_DBNAME>ODSMD2QA</ORACLE_DBNAME>
+<ORACLE_USERNAME>TDMP_RO_USER</ORACLE_USERNAME>
+<ORACLE_PASSWORD>tbpw</ORACLE_PASSWORD>
+<VERTICA_HOST>10.80.70.32</VERTICA_HOST>
+<VERTICA_DBNAME>ODSDW2QA</VERTICA_DBNAME>
+<VERTICA_USERNAME>tdmp_ro_user</VERTICA_USERNAME>
+<VERTICA_PASSWORD>turbinepw</VERTICA_PASSWORD>
+<Couchbase_URI>http://tbcbase01us3.test.247media.com:8091/pools</Couchbase_URI>
+</ProjectSettings>
